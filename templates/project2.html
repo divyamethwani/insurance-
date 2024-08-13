@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Project</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            color: #34495e;
+        }
+
+        .visual {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .visual img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Predict Insurance</h1>
+    </div>
+
+    <div class="content">
+        <h2>Introduction</h2>
+        <p>
+            This project aims to predict customer satisfaction using various features such as age, flight distance, inflight entertainment, and service quality. By leveraging machine learning algorithms, we analyze the data to build a predictive model that estimates customer satisfaction levels based on these factors.
+        </p>
+
+        <h2>Data Visualization</h2>
+        <div class="visual">
+            <img src="/static/data science.jpg" alt="Data Visualization">
+        </div>
+        <p>
+            The objective of this project is to predict insurance charges based on various factors using machine
+            learning models. We will employ Decision Tree and Random Forest algorithms to build and evaluate our
+            predictive models. The factors considered for prediction include age, gender, BMI (Body Mass Index), number of
+            children, smoking status, and region.
+
+        <h2>Methodology</h2>
+        <p>
+            We used a variety of machine learning algorithms including linear regression, decision trees, and random forests. 
+            After testing and validating these models, we selected the best-performing model for our predictions.
+        </p>
+        <h2>Algorithm</h2>
+        <h6> A Decision Tree is a supervised learning algorithm that can be used for both classification and regression
+            tasks. It works by splitting the data into subsets based on the value of input features, creating a
+            tree-like structure of decisions. Each node in the tree represents a feature, each branch represents a
+            decision rule, and each leaf node represents an outcome. Decision Trees are easy to interpret and visualize,
+            but they can be prone to overfitting, especially with complex datasets.</h6>
+        <h6>  Random Forest is an ensemble learning method that combines multiple Decision Trees to produce a more robust
+            and accurate model. It works by creating multiple Decision Trees during training and outputting the mean
+            prediction (regression) or mode prediction (classification) of the individual trees. Random Forest reduces
+            the risk of overfitting and improves generalization by averaging the results of many trees, each trained on
+            different subsets of the data.</h6>
+    
+        <h2>Results</h2>
+        <p>
+            The final model achieved an R² score of 0.85, indicating a strong correlation between the predicted and actual prices.
+            This model can be used to provide reliable estimates for classification based on input features.
+        </p>
+
+        <a href="/link" class="btn">project link</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Data Science Project by Divya Methwani</p>
+    </div>
+
+</body>
+</html>
